@@ -1,0 +1,33 @@
+#square {
+
+    
+    background-repeat:no-repeat;
+    width:100%;
+    height:375px;
+    z-index:5;
+    position:absolute;
+    bottom:140px;
+    left:0px;
+}
+
+#square {
+    animation: leaves 3s ease-in-out infinite alternate;
+    -webkit-animation: leaves 3s ease-in-out infinite alternate;
+}
+
+@keyframes leaves {
+    0% {
+        background-color: #fc0d67;
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    70%{
+        background-color: #000000;
+    }
+    100% {
+        background-color: #000000;
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+}
+
