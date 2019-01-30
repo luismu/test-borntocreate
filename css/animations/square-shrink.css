@@ -1,18 +1,16 @@
-#square {
-
-    
+.square-animated {
     background-repeat:no-repeat;
-    width:100%;
-    height:375px;
-    z-index:5;
-    position:absolute;
+    width:500px;
+    height:250px;
+    position: relative;
+    margin-top: 66px;
     bottom:140px;
     left:0px;
 }
 
-#square {
-    animation: leaves 3s ease-in-out infinite alternate;
-    -webkit-animation: leaves 3s ease-in-out infinite alternate;
+.square-animated {
+    animation: leaves 6s ease-in-out infinite alternate;
+    -webkit-animation: leaves 6s ease-in-out infinite alternate;
 }
 
 @keyframes leaves {
