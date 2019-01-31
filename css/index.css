@@ -1,3 +1,23 @@
+p {
+    font-family: 'Montserrat';
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+p{
+    font-size: 25px;
+}
+
+.letter-pink{
+    color: #fc0d67
+}
+
+.letter-white{
+    color: white;
+}
+
 div .header{
     background-color: #262626;
     width: 100%;
@@ -8,8 +28,6 @@ div .section-visual{
     background-color: #fafafa;
     width: 100%;
     height: 300px;
-    
-    
 }
 
 /* Custom container */
@@ -52,13 +70,12 @@ div .figures{
     display: inline-block;
 }
 
-
 .section-animate{
     background-color: #4febff;
     width: 100%;
     height: 300px;
     position: relative;
-    z-index: 999999;
+    z-index: 10;
 }
 
 .youcan{
@@ -69,4 +86,19 @@ div .figures{
     background-color: #fafafa;
     width: 100%;
     height: 300px;
+    
+}
+
+.btn-modal {
+    color: #fff;
+    background-color: #fc0d67;
+    
+}
+
+.btn{
+    border-radius: 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'montserrat'
+
 }
